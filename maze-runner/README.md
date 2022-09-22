@@ -1,2 +1,0 @@
-# maze-runner
-obstacle game
