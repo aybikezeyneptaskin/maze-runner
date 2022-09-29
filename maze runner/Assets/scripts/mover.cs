@@ -24,6 +24,9 @@ public class mover : MonoBehaviour
         Debug.Log("Welcome to the game!");
     }
 
+    //TODO: Fix the movement so it's smoother + when we hit dropper t just goes crazy. fix that too. 
+    //TODO: We can pass through objects it needs to be fixed
+    
     void MovePlayer()
     {
         float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
