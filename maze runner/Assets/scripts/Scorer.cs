@@ -11,6 +11,7 @@ public class Scorer : MonoBehaviour
         {
             hits++;
             Debug.Log($"You've bumped into something {hits} times");
+            //TODO: It doesn't count it when we hit a dropper object. solve it.
             //Debug.Log("You've bumped into a wall" + hits);
         }
 
