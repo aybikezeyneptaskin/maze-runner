@@ -26,4 +26,13 @@ public class Dropper : MonoBehaviour
             rigidbody.useGravity = true;
         }
     }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player" )
+        {
+            rigidbody.isKinematic = true;
+        }
+        
+    }
 }
